@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio of Bhushan Shewale. Data Analyst.">
+	<meta name="keywords" content="Bhushan Shewale, Bhushan, bhushan">
+	<meta property="og:title" content="Bhushan Shewale"/>
+	<meta property="og:url" content="https://bhushanshewale.github.io"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="Bhushan Shewale"/>
+	<meta property="og:description" content="Portfolio of Bhushan Shewale. Data Analyst."/>
+	<!--<meta property="og:image" content="https://pecey.github.io/images/user.jpg"/>-->
+
+	<title>Bhushan Shewale</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+<div id="landing-slide" class="slide">
+	<div id="landing-overlay" class="slide">
+
+		<div id="landing-slide-content" class="container row">
+			<div class="left-pane col-md-12 col-xs-12" style="opacity: 0">
+				<div class="user-image"><img src="images/user.jpg"></div>
+				<div class="user-name">Bhushan Shewale</div>
+				<hr style="width:300px; margin-top:10px; margin-bottom: 10px; border-top: 1px solid #EA4040;">
+				<div class="user-social">
+					<a href="https://github.com/bhushan45" target="_blank"><i class="fa fa-github"></i></a>
+					<a href="https://www.facebook.com/bhushan.shewale.338" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="mailto:bhushanshewale45@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+					<a href="https://www.linkedin.com/in/bhushan-shewale-44797bb6/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+				</div>
+			</div>
+			<div class="right-pane col-md-6 col-xs-12">
+				<span class="user-info"></span>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+<a href="http://madewithlove.org.in" target="_blank">Made with <span style="color: #e74c3c">&hearts;</span> in India</a>
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+			$(".left-pane").fadeTo(2000,1).animate({
+				width:"50%",
+			}, 1000).addClass("col-md-6").removeClass("col-md-12").css("width","100%").animate({"border-right-width":"1"},500,function(){
+				$(".right-pane").css("height",$(".left-pane").css("height"));
+				$(".user-info").typed({
+	            strings: ["<p> I am currently seeking internship and Co-Op oppurtunies in the Data Science Field.</p> ^1000"],
+	            typeSpeed: 50,
+	            loop: false,
+	            content:'html',
+	            showCursor:false
+	        });
+			});
+		});
+	</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74430110-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
